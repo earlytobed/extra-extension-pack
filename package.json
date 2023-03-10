@@ -1,0 +1,38 @@
+{
+    "name": "python-extra-extension-pack",
+    "displayName": "Python Extension Pack (extra)",
+    "description": "Visual Studio Code extensions for python development(extra).",
+    "version": "0.0.1",
+    "publisher": "Nighthawk",
+    "author": {
+        "name": "Nighthawk",
+        "email": "git@qaq.io"
+    },
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.76.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/earlytobed/python-extra-extension-pack"
+    },
+    "bugs": {
+        "url": "https://github.com/earlytobed/python-extra-extension-pack/issues"
+    },
+    "keywords": [
+        "sql"
+    ],
+    "scripts": {
+        "build": "vsce package"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "ms-ossdata.vscode-postgresql",
+        "alexcvzz.vscode-sqlite",
+        "mongodb.mongodb-vscode",
+        "wholroyd.jinja",
+        "lextudio.restructuredtext"
+    ]
+}
